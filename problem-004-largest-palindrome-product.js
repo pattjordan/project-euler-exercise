@@ -24,7 +24,7 @@ function largestPalindromeProduct(n) {
         }
       }
     }
-    console.log(Math.max.apply(Math, palindromes)); // Extract biggest palindrome from array
+    return Math.max.apply(Math, palindromes); // Extract biggest palindrome from array
   }
 }
 
